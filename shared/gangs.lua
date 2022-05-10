@@ -33,12 +33,15 @@ QBShared.Gangs = {
                 name = 'Recruit'
             },
 			['1'] = {
-                name = 'Enforcer'
+                name = 'Soldier'
             },
 			['2'] = {
-                name = 'Shot Caller'
+                name = 'Balla'
             },
-			['3'] = {
+            ['3'] = {
+            name = 'Right Hand'
+        },
+        ['4'] = {
                 name = 'Boss',
 				isboss = true
             },
@@ -54,10 +57,39 @@ QBShared.Gangs = {
                 name = 'Enforcer'
             },
 			['2'] = {
-                name = 'Shot Caller'
+                name = 'Soldado'
             },
 			['3'] = {
-                name = 'Boss',
+                name = 'Shot Caller',
+                isboss = true
+            },
+			['4'] = {
+                name = 'El Jefe',
+				isboss = true
+            },
+        },
+	},
+    ['aztecas'] = {
+		label = 'Aztecas',
+		grades = {
+            ['0'] = {
+                name = 'Reclutar'
+            },
+			['1'] = {
+                name = 'Ejecutor'
+            },
+            ['2'] = {
+                name = 'El Soldado'
+            },
+			['3'] = {
+                name = 'Mano derecha',
+            },
+			['4'] = {
+                name = 'La Reina',
+				isboss = true
+            },
+            ['5'] = {
+                name = 'El Jefe',
 				isboss = true
             },
         },
@@ -72,10 +104,10 @@ QBShared.Gangs = {
                 name = 'Enforcer'
             },
 			['2'] = {
-                name = 'Shot Caller'
+                name = 'Councillor'
             },
 			['3'] = {
-                name = 'Boss',
+                name = 'Head Councillor',
 				isboss = true
             },
         },
@@ -115,5 +147,59 @@ QBShared.Gangs = {
 				isboss = true
             },
         },
-	}
+	},
+    ['bd'] = {
+		label = 'Black Disciples',
+		grades = {
+            ['0'] = {
+                name = 'Recruit'
+            },
+			['1'] = {
+                name = 'Enforcer'
+            },
+			['2'] = {
+                name = 'Shot Caller'
+            },
+			['3'] = {
+                name = 'Boss',
+				isboss = true
+            },
+        },
+	},
+    ['bloods'] = {
+		label = 'Bloods',
+		grades = {
+            ['0'] = {
+                name = 'Recruit'
+            },
+			['1'] = {
+                name = 'Enforcer'
+            },
+			['2'] = {
+                name = 'Shot Caller'
+            },
+			['3'] = {
+                name = 'Boss',
+				isboss = true
+            },
+        },
+	},
+    ['crips'] = {
+		label = 'Crips',
+		grades = {
+            ['0'] = {
+                name = 'Recruit'
+            },
+			['1'] = {
+                name = 'Enforcer'
+            },
+			['2'] = {
+                name = 'Shot Caller'
+            },
+			['3'] = {
+                name = 'Boss',
+				isboss = true
+            },
+        },
+    }
 }
